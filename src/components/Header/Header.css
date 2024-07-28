@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 2px solid gray;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-list .active-link {
+  color: orange;
+}

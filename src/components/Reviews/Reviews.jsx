@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function Reviews() {
   const { movieId } = useParams();
   const [reviews, setReviews] = useState([]);
-  const API_KEY = '6b6b4d8285a49ce753cf1ed9382a2a8f';
+  const API_KEY = '9575eabc48100e8f389b13813466e8e2';
 
   useEffect(() => {
     fetch(
